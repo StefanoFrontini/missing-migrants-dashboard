@@ -1,5 +1,4 @@
 import { ScaleLinear } from "d3";
-// const formatNumber = format(",d");
 interface Props {
   yScale: ScaleLinear<number, number>;
   innerWidth: number;

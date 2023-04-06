@@ -1,7 +1,6 @@
 import { timeFormat, ScaleTime } from "d3";
 const formatTime = timeFormat("%m/%d/%Y");
 
-// const formatNumber = format(",d");
 interface Props {
   xScale: ScaleTime<number, number>;
   innerHeight: number;
